@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./tech/backend.png";
 import creator from "./tech/creator.png";
 import mobile from "./tech/mobile.png";
@@ -42,7 +41,6 @@ export {
   JourneyMakers,
   safeDrive,
   cloud,
-  logo,
   sass,
   firebase,
   backend,
