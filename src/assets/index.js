@@ -5,6 +5,7 @@ import web from "./tech/web.png";
 import github from "./tech/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import logo from './logo.png';
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -68,5 +69,6 @@ export {
   udemy,
   upwork,
   memorygame,
+  logo,
   trippy
 };

@@ -19,7 +19,10 @@ const ProjectCard = ({
 }) => {
   const [showMore, setShowMore] = useState(false);
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.3, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.3, 0.75)}
+      className="m-auto"
+    >
       <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-[290px]">
         <div className="relative w-full h-[230px]">
           <img

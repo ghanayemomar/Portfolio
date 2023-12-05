@@ -16,6 +16,7 @@ export default function App() {
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-norepeat bg-center">
           <Navbar />
+          <Hero/>
         </div>
         <About />
         <Experience />
@@ -23,6 +24,7 @@ export default function App() {
         <Tech />
         <Works />
         <div className="relative z-0">
+          <Contact/>
         </div>
       </div>
     </BrowserRouter>
