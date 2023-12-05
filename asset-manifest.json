@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bb8a362.css",
-    "main.js": "/static/js/main.07d9e54e.js",
+    "main.css": "/static/css/main.beb5159d.css",
+    "main.js": "/static/js/main.0bdbc56b.js",
     "static/media/trippyApp.png": "/static/media/trippyApp.e9f0cc4786a0cef70c7f.png",
     "static/media/JourneyMakers.png": "/static/media/JourneyMakers.40901f5df2a8f5900fd1.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
@@ -30,11 +30,11 @@
     "static/media/menu.svg": "/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
     "static/media/threejs.svg": "/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "index.html": "/index.html",
-    "main.6bb8a362.css.map": "/static/css/main.6bb8a362.css.map",
-    "main.07d9e54e.js.map": "/static/js/main.07d9e54e.js.map"
+    "main.beb5159d.css.map": "/static/css/main.beb5159d.css.map",
+    "main.0bdbc56b.js.map": "/static/js/main.0bdbc56b.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bb8a362.css",
-    "static/js/main.07d9e54e.js"
+    "static/css/main.beb5159d.css",
+    "static/js/main.0bdbc56b.js"
   ]
 }
