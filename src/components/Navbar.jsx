@@ -6,10 +6,29 @@ import { logo, menu, close } from "../assets";
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 100) {
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    //sub
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      //unsub
+      window.removeEventListener("scroll", () => {});
+    };
+  }, []);
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary transition-all  duration-700 ${isSticky ? 'py-2 bg-tertiary' : 'py-5'}`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
