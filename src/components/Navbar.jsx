@@ -28,7 +28,11 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary transition-all  duration-700 ${isSticky ? 'py-2 bg-tertiary' : 'py-5'}`}
+      className={`${
+        styles.paddingX
+      } w-full flex items-center py-5 fixed top-0 z-20 bg-primary transition-all  duration-700 ${
+        isSticky ? "py-[.5rem] bg-tertiary" : "py-5"
+      }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
