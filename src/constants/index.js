@@ -26,7 +26,8 @@ import {
   upwork,
   memorygame,
   trippy,
-  expesnses
+  expesnses,
+  ultimate,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +51,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Mobile Developer",
+    title: "Back-end Developer",
     icon: mobile,
   },
 ];
@@ -117,31 +118,45 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front-End Development Internship",
-    company_name: "Harri",
-    icon: harri,
+    title: "Full Stack Egnineer",
+    company_name: "ULTIMIT Advanced Turnkey Solutions",
+    icon: ultimate,
     iconBg: "#383E56",
-    date: "May 2023 - July 2023",
+    date: "JAN 2024 - AUG 2024",
     points: [
-      "Building pixel-perfect websites using HTML, CSS, Bootstrap, and Tailwind.",
-      "Adding advanced functionality using JavaScript.",
-      "clean and efficient code practices by implementing programming functional concepts such as pure functions and modularity",
-      "Working with React.js utilizing best coding practices and React features.",
+      "Worked on frontend development using React.js.",
+      "Developing backend solutions using ASP.NET.",
+      "Developing, implementing, and maintaining RESTful APIs to facilitate communication between frontend and backend systems.",
+      "Database development and management using SQL Server.",
+      "Participated in code reviews, debugging sessions, and performance tuning to ensure code quality and optimize application performance.",
+      "Familiar with agile development methodologies.",
     ],
   },
   {
-    title: "React.js Developer",
+    title: "Front-End Development",
     company_name: "Freelance",
     icon: upwork,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - Present",
+    date: "Sep 2023 - Dec 2023",
     points: [
-      "Solely conceived, designed, and developed a robust cloud-server web application using React.js, TypeScript, Tailwind CSS, and Firebase.",
-      "Implemented secure login/signup, diverse payment integrations, and real-time messaging with administrators for enhanced user interaction.",
-      "Offered customizable server settings, empowering users to tailor their hosting solutions according to their specific needs.",
-      "Emphasized an intuitive UI/UX design, coupled with clean TypeScript code for scalability and reliability.",
-      "Integrated a geographical map feature showcasing global server locations, providing valuable insights into the infrastructure.",
-      "Demonstrated comprehensive end-to-end development skills and commitment to delivering a seamless user experience.",
+      "Designed and built a strong cloud-server web application using React.js, TypeScript, Tailwind CSS, and Firebase.",
+      "Implemented secure login/signup, different features, and real-time messaging with administrators to improve user interaction.",
+      "Provided customizable server settings, allowing users to adjust their hosting solutions to meet their needs.",
+      "Added a map feature showing global server locations to give useful information about the setup.",
+      "Focused on easy-to-use UI/UX design and clean TypeScript code for better performance and reliability.",
+    ],
+  },
+  {
+    title: "Front-End Development",
+    company_name: "Harri",
+    icon: harri,
+    iconBg: "#383E56",
+    date: "Mar 2023 - Aug 2023",
+    points: [
+      "Developed pixel-perfect websites using HTML, CSS, Bootstrap, Tailwind, and React, ensuring responsive and user-friendly designs.",
+      "Implemented interactive functionality with JavaScript and React, enhancing user interactions and dynamic site behavior.",
+      "Wrote clean, modular, and maintainable code by applying functional programming principles such as pure functions and modularity within React components.",
+      "Built and maintained interactive UI components using React.js, following best practices for performance, reusability, and scalability.",
     ],
   },
 ];

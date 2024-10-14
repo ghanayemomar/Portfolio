@@ -27,6 +27,7 @@ import harri from "./company/harri.png";
 import aaup from "./company/aaup.png";
 import udemy from "./company/udemy.png";
 import upwork from './company/upword.png';
+import ultimate from './company/ultimate.png';
 
 import whereintheworld from "./projects/whereintheworld.png";
 import JourneyMakers from "./projects/JourneyMakers.png";
@@ -70,5 +71,6 @@ export {
   upwork,
   memorygame,
   logo,
-  trippy
+  trippy,
+  ultimate
 };
