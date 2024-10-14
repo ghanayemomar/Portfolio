@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.28145a8a.css",
-    "main.js": "/static/js/main.31702ed0.js",
+    "main.js": "/static/js/main.cb10eec4.js",
     "static/media/trippyApp.png": "/static/media/trippyApp.e9f0cc4786a0cef70c7f.png",
     "static/media/JourneyMakers.png": "/static/media/JourneyMakers.40901f5df2a8f5900fd1.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
@@ -31,10 +31,10 @@
     "static/media/threejs.svg": "/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "index.html": "/index.html",
     "main.28145a8a.css.map": "/static/css/main.28145a8a.css.map",
-    "main.31702ed0.js.map": "/static/js/main.31702ed0.js.map"
+    "main.cb10eec4.js.map": "/static/js/main.cb10eec4.js.map"
   },
   "entrypoints": [
     "static/css/main.28145a8a.css",
-    "static/js/main.31702ed0.js"
+    "static/js/main.cb10eec4.js"
   ]
 }
