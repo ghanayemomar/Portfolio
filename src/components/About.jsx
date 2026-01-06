@@ -29,7 +29,7 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
   return (
-    <>
+    <div className="flex flex-col items-center text-center">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
@@ -39,19 +39,22 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Computer Systems Engineering graduate with a strong foundation in
-        front-end and mobile app development, data structures and
-        algorithms.Committed to delivering high-quality, high-performance, and
-        scalable software solutions. I am keen to apply my technical skills and
-        gain newknowledge in a dynamic and challenging environment.
+        💻 Software Engineer | 📍 Based in Bulgaria<br />
+        Software Engineer with experience in front-end development (React.js,
+        TypeScript), back-end (ASP.NET, SQL Server) and desktop development (WPF).
+        Skilled in building scalable applications, developing RESTful APIs, and
+        optimizing performance. Passionate about delivering clean, efficient,
+        and user-focused solutions.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((sevice, index) => (
-          <ServiceCard key={index} index={index} {...sevice} />
+
+      <div className="mt-20 flex flex-wrap justify-center gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={index} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
+
 
 export default SectionWrapper(About, "about");

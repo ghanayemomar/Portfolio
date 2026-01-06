@@ -28,6 +28,9 @@ import {
   trippy,
   expesnses,
   ultimate,
+  creator,
+  backend,
+  festo,
 } from "../assets";
 
 export const navLinks = [
@@ -52,7 +55,15 @@ const services = [
   },
   {
     title: "Back-end Developer",
+    icon: backend,
+  },
+   {
+    title: "Desktop Developer",
     icon: mobile,
+  },
+   {
+    title: "Mobile Developer",
+    icon: creator,
   },
 ];
 
@@ -117,12 +128,27 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+    title: "Software Engineer",
+    company_name: "FESTO Bulgaria",
+    icon: festo,
+    iconBg: "#383E56",
+    date: "JAN 2025 - PRESENT",
+    points: [
+    "Developed the Festo Automation Suite (FAS) desktop application using WPF/.NET, applying MVVM architecture to deliver clean, maintainable, and scalable front-end and back-end components.",
+    "Implemented new features with a strong focus on usability and customer value in an industrial automation context.",
+    "Worked across the full software development lifecycle in an Agile/Scrum environment, delivering high-quality features incrementally.",
+    "Collaborated with international cross-functional teams to design, implement, and optimize modular and scalable solutions.",
+    "Maintained and refactored existing codebase, improving performance, stability, and overall code quality through bug fixes and enhancements.",
+    "Utilized GitLab, TeamCity, Codebeamer, and Git Extensions to support CI/CD pipelines, version control, and requirements management."
+    ],
+  },
   {
     title: "Full Stack Egnineer",
     company_name: "ULTIMIT Advanced Turnkey Solutions",
     icon: ultimate,
     iconBg: "#383E56",
-    date: "JAN 2024 - AUG 2024",
+    date: "JAN 2024 - DEC 2024",
     points: [
       "Worked on frontend development using React.js.",
       "Developing backend solutions using ASP.NET.",
@@ -132,31 +158,32 @@ const experiences = [
       "Familiar with agile development methodologies.",
     ],
   },
-  {
-    title: "Front-End Development",
+    {
+    title: "React.js Developer",
     company_name: "Freelance",
     icon: upwork,
     iconBg: "#E6DEDD",
-    date: "Sep 2023 - Dec 2023",
+    date: "JUL 2023 - DEC 2024",
     points: [
-      "Designed and built a strong cloud-server web application using React.js, TypeScript, Tailwind CSS, and Firebase.",
-      "Implemented secure login/signup, different features, and real-time messaging with administrators to improve user interaction.",
-      "Provided customizable server settings, allowing users to adjust their hosting solutions to meet their needs.",
-      "Added a map feature showing global server locations to give useful information about the setup.",
-      "Focused on easy-to-use UI/UX design and clean TypeScript code for better performance and reliability.",
+      "Solely conceived, designed, and developed a robust cloud-server web application using React.js, TypeScript, Tailwind CSS, and Firebase.",
+      "Implemented secure login/signup, diverse payment integrations, and real-time messaging with administrators for enhanced user interaction.",
+      "Offered customizable server settings, empowering users to tailor their hosting solutions according to their specific needs.",
+      "Emphasized an intuitive UI/UX design, coupled with clean TypeScript code for scalability and reliability.",
+      "Integrated a geographical map feature showcasing global server locations, providing valuable insights into the infrastructure.",
+      "Demonstrated comprehensive end-to-end development skills and commitment to delivering a seamless user experience.",
     ],
   },
   {
-    title: "Front-End Development",
+    title: "Front-End Development Internship",
     company_name: "Harri",
     icon: harri,
     iconBg: "#383E56",
-    date: "Mar 2023 - Aug 2023",
+    date: "JAN 2023 - JUN 2023",
     points: [
-      "Developed pixel-perfect websites using HTML, CSS, Bootstrap, Tailwind, and React, ensuring responsive and user-friendly designs.",
-      "Implemented interactive functionality with JavaScript and React, enhancing user interactions and dynamic site behavior.",
-      "Wrote clean, modular, and maintainable code by applying functional programming principles such as pure functions and modularity within React components.",
-      "Built and maintained interactive UI components using React.js, following best practices for performance, reusability, and scalability.",
+      "Building pixel-perfect websites using HTML, CSS, Bootstrap, and Tailwind.",
+      "Adding advanced functionality using JavaScript.",
+      "clean and efficient code practices by implementing programming functional concepts such as pure functions and modularity",
+      "Working with React.js utilizing best coding practices and React features.",
     ],
   },
 ];

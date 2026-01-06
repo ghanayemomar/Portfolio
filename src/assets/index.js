@@ -1,3 +1,4 @@
+import logo from "./logo.svg";
 import backend from "./tech/backend.png";
 import creator from "./tech/creator.png";
 import mobile from "./tech/mobile.png";
@@ -5,7 +6,7 @@ import web from "./tech/web.png";
 import github from "./tech/github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import logo from './logo.png';
+
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -28,6 +29,7 @@ import aaup from "./company/aaup.png";
 import udemy from "./company/udemy.png";
 import upwork from './company/upword.png';
 import ultimate from './company/ultimate.png';
+import festo from './company/festo.png';  
 
 import whereintheworld from "./projects/whereintheworld.png";
 import JourneyMakers from "./projects/JourneyMakers.png";
@@ -43,6 +45,7 @@ export {
   JourneyMakers,
   safeDrive,
   cloud,
+  logo,
   sass,
   firebase,
   backend,
@@ -70,7 +73,7 @@ export {
   udemy,
   upwork,
   memorygame,
-  logo,
   trippy,
-  ultimate
+  ultimate,
+  festo,
 };
