@@ -12,20 +12,38 @@ const Navbar = () => {
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
-          }}
-        >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Omar &nbsp;
-            <span className="sm:block hidden">|&nbsp;Software Engineer</span>
-          </p>
-        </Link>
+       <Link
+  to="/"
+  className="flex items-center gap-2 min-w-0"
+  onClick={() => {
+    setActive("");
+    window.scrollTo(0, 0);
+  }}
+>
+  <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+
+  {/* Text block */}
+  <div className="min-w-0 flex flex-col leading-tight">
+    {/* Row 1: Name + Title */}
+    <p className="text-white text-[18px] font-bold flex items-center gap-2 min-w-0">
+      <span className="whitespace-nowrap">Omar</span>
+      <span className="sm:block hidden text-secondary font-medium whitespace-nowrap">
+        | Software Engineer
+      </span>
+    </p>
+
+    {/* Row 2: Email (responsive) */}
+    <a
+      href="mailto:omar.mohd.ghanayem@gmail.com"
+      className="text-[12px] text-secondary hover:text-white transition truncate max-w-[220px] sm:max-w-[320px] md:max-w-none"
+      title="omar.mohd.ghanayem@gmail.com"
+      onClick={(e) => e.stopPropagation()}
+    >
+      omar.mohd.ghanayem@gmail.com
+    </a>
+  </div>
+</Link>
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li
